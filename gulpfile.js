@@ -63,7 +63,7 @@ gulp.task('js', function() {
 gulp.task('images', function() {
     gulp.src(assetDir+'/img/**/*')
         .pipe(imagemin())
-        .pipe(gulp.dest(outputDir+'/img'))
+        .pipe(gulp.dest(outputDir+'/images'))
 });
 
  /*   gulp.task('connect', function() {
