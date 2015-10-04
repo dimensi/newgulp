@@ -14,7 +14,8 @@ gulp.task('browser-sync', function() {
         server: {
             baseDir: "./public/"
         },
-        reloadDelay: 1500
+        reloadDelay: 1500,
+        browser: "google chrome",
     });
 });
 	// Собираем Stylus
